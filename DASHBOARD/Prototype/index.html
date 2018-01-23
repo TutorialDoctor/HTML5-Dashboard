@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src=""></script>
+    <!-- BOOTSTRAP-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+    <!-- jQuery library-->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+  
+  <!---->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <script type="text/javascript" src="jquery-jvectormap-continents-mill.js"></script>
+  <title></title>
+</head>
+
+<body>
+  
+  <!--https://bootsnipp.com/tags/sidebar-->
+  <div class="nav navbar">
+      <span id="permissions">Administrator</span>
+      <span id="name">Raphael Smith</span>
+    </div>
+  
+  <div class="dashboard container">
+    
+
+    
+    <!--NAV
+    <div id="page-nav" class="sect">
+      <ul class="page-links">
+        <li><a>Dashboard</a></li>
+        <li><a>Email</a></li>
+        <li><a>Compose</a></li>
+        <li><a>Chart</a></li>
+        <li><a>Charts</a></li>
+        <li><a>Forms</a></li>
+        <li><a>UI Elements</a></li>
+        <li><a>Tables</a></li>
+      </ul>
+    </div>-->
+    
+    <!--MIDDLE SECTION-->
+    <div class="midsection container">
+      
+      <!--TOTAL VISITS-->
+      <div class="row">
+        <div class="col sect">
+          <p>Total Visits</p><br>
+          <span>Chart.js Chart</span>
+          
+          <span><a class="btn btn-primary" style="float:right;color:white;opacity: .6;border-radius:12px">%10</a></span>
+        </div>
+        <div class="col sect">Total Visits</div>
+        <div class="col sect">Total Visits</div>
+        <div class="col sect">Total Visits</div>
+      </div>
+      
+      <!--SITE VISITS-->
+      <div class="row">
+        <div class="visits sect col">
+          <p>Site Visits</p>
+          
+          <!--MAP-->
+        </div>
+        
+        <!--VISITS DIAGRAM-->
+        <div class="visits-diagram sect col">
+          
+          <div class="diagram1">
+          <p>100K</p>
+          <span>Visitors From USA</span><span>   50%</span>
+          <div class="progress" style="height: 3px;">
+          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div></div>
+          
+          <div class="diagram2">
+          <p>100K</p>
+          <span>Visitors From USA</span><span>   50%</span>
+          <div class="progress" style="height: 3px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div></div>
+            
+          <div class="diagram3">
+          <p>100K</p>
+          <span>Visitors From USA</span><span>   90%</span>
+          <div class="progress" style="height: 3px;">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div></div>
+
+          <div class="diagram3">
+          <p>100K</p>
+          <span>Visitors From USA</span><span>   10%</span>
+          <div class="progress" style="height: 3px;">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 10%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+          </div></div>
+          
+          
+      </div>
+        
+      </div>
+      
+<div class="row">
+  <!--MONTHLY STATS-->
+      <div class="monthly-stats sect col">
+        <p>Monthly Stats</p>
+        <svg viewBox="0 0 500 100" class="chart">
+            <polyline
+               fill="none"
+               stroke="#8600d9"
+               stroke-width="2"
+               points="
+                 00,120
+                 20,60
+                 40,80
+                 60,20
+                 80,80
+                 100,80
+                 120,60
+                 140,100
+                 160,90
+                 180,80
+                 200, 110
+                 220, 10
+                 240, 70
+                 260, 100
+                 280, 100
+                 300, 40
+                 320, 0
+                 340, 100
+                 360, 100
+                 380, 120
+                 400, 60
+                 420, 70
+                 440, 80
+               "
+             />
+          </svg>
+      </div>
+      <!--SALES REPORT-->
+      <div class="sales-report sect col">
+        <div class="whitebox">
+        <p>Sales Report</p></div>
+        <div class="bluebox">
+          <p>November</p>2017
+          <span style="float:right; font-size:16px">$6,000</span>
+        </div>
+      </div>
+    </div> <!--END COL-->
+  
+      <!--TODO LIST-->
+  <div class="row">
+      <div class="todo-list sect col">
+        <p>Todo List</p>
+        <form action="" method="get">
+          <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
+          <input type="checkbox" name="vehicle" value="Car" checked="checked"> I have a car<br>
+        </form>
+      </div>
+      <!--WEATHER-->
+    <!--http://www.booked.net/widgets/weather-->
+    <!--https://weatherwidget.io/-->
+      <div class="weather sect col">
+        <p>Weather</p>
+<a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="NEW YORK" data-label_2="WEATHER" >NEW YORK WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://weatherwidget.io/js/widget.min.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","weatherwidget-io-js");
+</script>
+      </div><!--END WEATHER-->
+    </div>
+  
+      </div>
+    </div>
+
+</body>
+  
+</html>

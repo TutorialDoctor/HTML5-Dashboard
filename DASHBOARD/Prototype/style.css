@@ -1,0 +1,38 @@
+.midsection{
+  clear:left;
+}
+
+.sect{
+  background-color: #FFF;
+  //border: 2px solid #aeb5ba;
+  padding: 8px;
+  margin:4px 4px 0px 0px
+}
+
+body{
+  background-color: #E7EDF4 !important;
+  margin: 16px;
+}
+
+#page-nav{
+  //width:10%;
+}
+
+.page-links{
+  list-style:square;
+}
+
+.chart{
+  background-color: #E7EDF4 !important
+}
+
+.nav{
+   background-color: #FFF !important;
+}
+
+.bluebox{
+  background-color:#39AFFF;
+  width:100%;
+  color: white;
+  padding: 4px;
+}
